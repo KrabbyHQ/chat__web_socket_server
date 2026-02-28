@@ -1,0 +1,16 @@
+[app]
+name = "chat_web_socket_server"
+environment = "development"
+
+[client_integrations]
+allow_logging_middleware = true
+allow_request_timeout_middleware = true
+
+[observability]
+enable_tracing = true
+enable_metrics = false
+
+[server]
+host = "127.0.0.1"
+port = 8001
+request_timeout_secs = 60
