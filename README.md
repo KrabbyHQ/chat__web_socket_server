@@ -130,6 +130,20 @@ E.g.
 
 > **Note:** Retrieve real secrets through the approved secret-management process and never commit real `.env` files to source control.
 
+## Continuous Integration (CI)
+
+This project has a CI setup configured via GitHub Actions. If you fork the repository and want to verify the CI builds on your fork, you may need to add repository secrets to your fork's settings, especially for tests that require specific environment values.
+
+### How to Add Secrets to Your GitHub Fork:
+
+1.  Navigate to your fork of the repository on GitHub.
+2.  Click on the **Settings** tab at the top.
+3.  In the left sidebar, click on **Secrets and variables** and then select **Actions**.
+4.  Click the **New repository secret** button.
+5.  Enter the secret **Name** (as expected by the CI config) and its corresponding **Value**.
+6.  Click **Add secret**.
+7.  Repeat this process for all required secrets.
+
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
