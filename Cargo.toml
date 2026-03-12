@@ -2,6 +2,7 @@
 name = "chat_web_socket_server"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.85"
 description = "WebSocket server for the Krabby chat implementation"
 repository = "https://github.com/KrabbyHQ/chat__web_socket_server"
 homepage = "https://github.com/KrabbyHQ/chat__web_socket_server"

@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/KrabbyHQ/chat__web_socket_server/actions/workflows/ci.yml/badge.svg)](https://github.com/KrabbyHQ/chat__web_socket_server/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Rust](https://img.shields.io/badge/Rust-1.70%2B-orange.svg)](https://www.rust-lang.org/)
+[![Rust](https://img.shields.io/badge/Rust-1.85%2B-orange.svg)](https://www.rust-lang.org/)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
@@ -24,7 +24,7 @@ This repository contains the WebSocket server/service for the Krabby `chat` impl
 
 - [Rust](https://www.rust-lang.org/tools/install)(latest stable)
 
-- [Node.js](https://nodejs.org/en/download/)(and [Bun](https://bun.sh/)) - for contribution standards enforcement)
+- [Node.js](https://nodejs.org/en/download/) and [Bun](https://bun.sh/) - for contribution standards enforcement
 
 ### 2. Running the Server
 
@@ -146,7 +146,7 @@ This project has a CI setup configured via GitHub Actions. If you fork the repos
 
 ## Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an incredible place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 Please check our [Contributing Guidelines](CONTRIBUTING.md) to get started.
 

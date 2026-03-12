@@ -23,7 +23,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 
 - [Suggesting Enhancements](#suggesting-enhancements)
 
-- [Your First Code Contribution](#your-first-code-contribution)
+- [Your First Code/Documentation Contribution](#your-first-codedocumentation-contribution)
 
 - [Improving Documentation](#improving-documentation)
 
@@ -33,19 +33,19 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Krabby Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [okpainmoandrew@gmail.com](mailto:okpainmoandrew@gmail.com).
+This project and everyone participating in it is governed by the [Krabby Chat WebSocket Server Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [okpainmoandrew@gmail.com](mailto:okpainmoandrew@gmail.com).
 
 ## I Have a Question
 
 > If you want to ask a question, we assume that you have read the available [Documentation](README.md).
 
-Before you ask a question, it is best to search for existing [Issues](https://github.com/krabby/chat__web_socket_server/issues) that might help you. It is also advisable to search the internet for answers first.
+Before you ask a question, it is best to search for existing [Issues](https://github.com/KrabbyHQ/chat__web_socket_server/issues) that might help you. It is also advisable to search the internet for answers first.
 
 If you then still feel the need to ask a question and need clarification, we recommend the following:
 
-- Checkout the issues template [here](../ISSUE_TEMPLATE/bug_report.md). It should serve as your guide.
+- Checkout the issues template [here](.github/ISSUE_TEMPLATE/bug_report.md). It should serve as your guide.
 
-- Open an [Issue](https://github.com/krabby/chat__web_socket_server/issues/new).
+- Open an [Issue](https://github.com/KrabbyHQ/chat__web_socket_server/issues/new).
 
 - Provide as much context as you can about what you're running into.
 
@@ -69,7 +69,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 - Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment variables/configurations.
 
-- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://github.com/krabby/chat__web_socket_server/issues?q=label%3Abug).
+- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://github.com/KrabbyHQ/chat__web_socket_server/issues?q=label%3Abug).
 
 - Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
 
@@ -87,7 +87,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
 
-- Open an [Issue](https://github.com/krabby/chat__web_socket_server/issues/new). (Since we can't be sure at this point whether it is a bug or not, we ask you not to blanket-label the issue yet).
+- Open an [Issue](https://github.com/KrabbyHQ/chat__web_socket_server/issues/new). (Since we can't be sure at this point whether it is a bug or not, we ask you not to blanket-label the issue yet).
 
 - Explain the behavior you would expect and the actual behavior.
 
@@ -113,13 +113,13 @@ This section guides you through submitting an enhancement suggestion for Krabby 
 
 - Read the [Documentation](README.md) carefully and find out if the functionality is already covered, maybe by an individual configuration.
 
-- Search [Issues](https://github.com/krabby/chat__web_socket_server/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+- Search [Issues](https://github.com/KrabbyHQ/chat__web_socket_server/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
 - Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
 
 #### How Do I Submit a Good Enhancement Suggestion?
 
-Enhancement suggestions are tracked as [GitHub issues](https://github.com/krabby/chat__web_socket_server/issues). The [feature request template](../ISSUE_TEMPLATE/feature_request.md) will be of help.
+Enhancement suggestions are tracked as [GitHub issues](https://github.com/krabby/chat__web_socket_server/issues). The [feature request template](.github/ISSUE_TEMPLATE/feature_request.md) will be of help.
 
 - Open an [Issue](https://github.com/krabby/chat__web_socket_server/issues/new).
 

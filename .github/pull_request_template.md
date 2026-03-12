@@ -82,5 +82,6 @@ Add relevant output, logs, or screenshots where helpful.
 - [ ] All tests pass locally
 - [ ] No new warnings introduced
 - [ ] Documentation updated (if required)
-- [ ] Conventional Commit format used for branch and PR title
+- [ ] Conventional Commit format used for PR title
+- [ ] Branch named according to CONTRIBUTING.md (e.g. <preferred_code_name>_dev)
 - [ ] CI passes
