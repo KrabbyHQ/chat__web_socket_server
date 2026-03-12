@@ -5,7 +5,6 @@
 .env.production
 .env.staging
 .env
-.env*
 
 # extras
 .idea
@@ -19,8 +18,3 @@ node_modules
 
 
 
-# Added by cargo
-#
-# already existing elements were commented out
-
-#/target
