@@ -1,4 +1,10 @@
-# Krabby Chat WebSocket Server.
+# Krabby Chat WebSocket Server
+
+[![CI](https://github.com/KrabbyHQ/chat__web_socket_server/actions/workflows/ci.yml/badge.svg)](https://github.com/KrabbyHQ/chat__web_socket_server/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Rust](https://img.shields.io/badge/Rust-1.70%2B-orange.svg)](https://www.rust-lang.org/)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 This repository contains the WebSocket server/service for the Krabby `chat` implementation.
 
@@ -22,7 +28,7 @@ This repository contains the WebSocket server/service for the Krabby `chat` impl
 
 ### 2. Running the Server
 
-*Ensure to have installed `cargo-watch`.*
+_Ensure to have installed `cargo-watch`._
 
 ```shell
 cargo install cargo-watch
@@ -36,7 +42,7 @@ cargo dev
 
 > `cargo-watch` handles the server/project reloads on-save. See `.cargo/config.toml` for reference on the `dev` command.
 
-*Note: The `dev` command is an alias for `cargo watch`. If you are on WSL and reload doesn't trigger, proceed to use the polling command option(also see `.cargo/config.toml` for reference on that).*
+_Note: The `dev` command is an alias for `cargo watch`. If you are on WSL and reload doesn't trigger, proceed to use the polling command option(also see `.cargo/config.toml` for reference on that)._
 
 ### 3. Setting up to ensure contribution standards
 
@@ -68,7 +74,7 @@ The project uses a highly flexible configuration pattern powered by the `config`
 
 2. **Environment Config Overrides**: `config/{APP__ENV}.toml` (e.g., `development.toml`, `production.toml`).
 
-3. **Local Overrides**: `config/local.toml` 
+3. **Local Overrides**: `config/local.toml`
 
 4. **Environment Variables**: Prefixed with `APP__`.
 
@@ -101,7 +107,18 @@ The `validate()` method ensures the following sections are correctly populated a
 
 ## Environment Variables Files
 
-The project uses several `.env` files to manage environment-specific configurations. 
+The project uses several `.env` files to manage environment-specific configurations. To assist in setting up your local environment, we provide several **`.sample`** versions within the project root.
+
+### Setting up your environment
+
+To get started, you should remove the **`.sample`** extension from the end of the sample files to create the active configuration files.
+
+E.g.
+
+- Duplicate `.env.sample` and rename it to `.env`.
+- Duplicate `.env.development.sample` and rename it to `.env.development`.
+
+### Available Files:
 
 - `.env`: The default environment file. Its primary function is controlling environment selection (e.g., `APP__DEPLOY__ENV=development`).
 
@@ -111,13 +128,33 @@ The project uses several `.env` files to manage environment-specific configurati
 
 - `.env.production`: Contains sensitive production-only settings.
 
+> **Note:** Retrieve real secrets through the approved secret-management process and never commit real `.env` files to source control.
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+Please check our [Contributing Guidelines](CONTRIBUTING.md) to get started.
+
+### Code of Conduct
+
+We are committed to providing a friendly, safe and welcoming environment for all. Please see our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Security
+
+If you discover any security-related issues, please refer to our [Security Policy](SECURITY.md) instead of using the issue tracker.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Testing
 
 The project maintains reliability through comprehensive testing.
 
 ### 1. Unit Tests
 
-Located within the source files (e.g., `src/utils/load_config.rs`). 
+Located within the source files.
 
 **Run unit tests:**
 
